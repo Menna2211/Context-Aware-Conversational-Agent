@@ -1,0 +1,7 @@
+Split this input into context (background info) and question (what's being asked).
+
+Input:
+{input}
+
+Return ONLY valid JSON in this format:
+{{"context": "background information here", "question": "actual question here"}}

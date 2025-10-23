@@ -1,0 +1,8 @@
+Check if the provided context is relevant and useful for answering the question.
+
+Question: {question}
+Context: {context}
+
+Answer with ONLY one word: "relevant" or "not_relevant"
+
+Your decision (respond with ONLY "relevant" or "not_relevant")
