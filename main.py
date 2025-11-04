@@ -2,7 +2,7 @@ from agents import build_context_aware_agent
 from langchain_core.messages import HumanMessage
 
 def main():
-    """Main execution - Week 1 Demo"""
+    """Main execution"""
     print("=" * 60)
     print("Context-Aware Chatbot Agent")
     print("=" * 60)

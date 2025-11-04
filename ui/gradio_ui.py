@@ -1,7 +1,6 @@
-"""
-User-Friendly Gradio UI for Context-Aware Chatbot
-Beautiful, intuitive, and easy to use
-"""
+import sys
+import os
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 import gradio as gr
 from agents import build_context_aware_agent

@@ -2,8 +2,8 @@ from langchain_openai import ChatOpenAI
 import os
 from langchain_ollama import ChatOllama
 
-#openrouter_api_key =""
-openrouter_api_key= os.getenv("OPENROUTER_API_KEY")
+openrouter_api_key = "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"
+#openrouter_api_key= os.getenv("OPENROUTER_API_KEY")
 base_url = "https://openrouter.ai/api/v1"
 model_name = "openai/gpt-oss-20b:free"
 
